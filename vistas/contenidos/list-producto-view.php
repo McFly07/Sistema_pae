@@ -1,6 +1,6 @@
 <!--::::::::::::::::::::::::::::::::::::::::::
-	===	 		   Header de página		       ===
-	:::::::::::::::::::::::::::::::::::::::::::--> 
+===	 		   Header de página		       ===
+:::::::::::::::::::::::::::::::::::::::::::--> 
 			<div class="full-box page-header">
 				<h3 class="text-left">
 					<i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE PRODUCTOS
@@ -30,11 +30,13 @@
 						<thead>
 							<tr class="text-center roboto-medium">
 								<th>NUMERO</th>
+								<th>Fecha de caducidad</th>
 								<th>CÓDIGO</th>
 								<th>NOMBRE</th>
 								<th>CANTIDAD</th>
 								<th>GRUPO</th>
 								<th>MEDIDA</th>
+								<th>Observación</th>
 								<th>ACTUALIZAR</th>
 								<th>ELIMINAR</th>
 							</tr>
@@ -42,11 +44,13 @@
 						<tbody>
 							<tr class="text-center" >
 								<td>1</td>
+								<td>24 10 2022</td>
 								<td>gra-100</td>
 								<td>avena</td>
 								<td>24</td>
 								<td>Granos</td>
 								<td>K</td>
+								<td>Producto roto</td>
 								<td>
 									<a href="actualizar-product.php" class="btn btn-success">
 	  									<i class="fas fa-sync-alt"></i>	

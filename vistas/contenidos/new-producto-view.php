@@ -7,13 +7,13 @@
             <div class="container-fluid">
                 <ul class="full-box list-unstyled page-nav-tabs">
                     <li>
-                        <a class="active" href="reservation-new.html"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO PRODUCTO</a>
+                        <a class="active" href="<?php SERVERURL; ?>new-producto"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO PRODUCTO</a>
                     </li>
                     <li>
-                        <a href="reservation-list.html"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE PRODUCTO</a>
+                        <a href="<?php SERVERURL; ?>list-producto"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE PRODUCTO</a>
                     </li>
                     <li>
-                        <a href="reservation-search.html"><i class="fas fa-search-dollar fa-fw"></i> &nbsp; BUSCAR PRODUCTO</a>
+                        <a href="<?php SERVERURL; ?>buscar-producto"><i class="fas fa-search-dollar fa-fw"></i> &nbsp; BUSCAR PRODUCTO</a>
                     </li>
                 </ul>
             </div>
